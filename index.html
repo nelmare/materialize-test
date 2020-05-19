@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лидогенератор</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header class="header grey darken-4 fixed-top">
+</header>
+<main class="container w-30 valign-wrapper">
+    <div class="row align-items-center justify-content-center align-content-center h-100">
+        <div class="col s12 my-auto">
+            <div class="center-align">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/logo-desktop.gif">
+                    <img class="logo-image responsive-img" src="img/logo.png" width="150" height="114" alt="Логотип проекта Лидогенератор">
+                </picture>
+            </div>
+            <div class="w-100 mx-auto mb-4 center-align">
+                <h1 class="text-uppercase font-weight-bold text-center title">Лидогенератор</h1>
+            </div>
+            <form>
+                <div class="input-field col s12">
+                        <i class="prefix">
+                            <span><i class="fa fa-envelope"></i></span>
+                        </i>
+                        <input class="validate" type="email" id="inputEmail" placeholder="Email">
+                        <label class="sr-only" for="inputEmail">Email</label>
+                </div>
+                <div class="input-field col s12">
+                        <i class="prefix fa fa-lock"></i>
+                        <input class="validate" type="password" id="inputPassword" placeholder="Пароль">
+                        <label class="sr-only" for="inputPassword">Password</label>
+                </div>
+                <div class="form-group form-items d-flex justify-content-between buttons-wrapper">
+                    <p class="col s-6">
+                        <label>
+                            <input class="filled-in" type="checkbox" checked><span>Запомнить меня</span>
+                        </label>
+                    </p>
+                    <p class="col s-6 right">
+                        <a class="text-decoration-none restore-button" href="#">
+                            <ins>Восстановить пароль</ins>
+                        </a>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <button class="btn blue darken-1 text-uppercase login-button waves-effect waves-blue" type="submit">Войти</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<footer class="footer grey darken-4">
+</footer>
+<!--<script>-->
+<!--    document.addEventListener('DOMContentLoaded', function() {-->
+<!--        var elems = document.querySelectorAll('.autocomplete');-->
+<!--        var instances = M.Autocomplete.init(elems, options);-->
+<!--    });-->
+<!--</script>-->
+
+<!--    // Or with jQuery-->
+
+<!--    $(document).ready(function(){-->
+<!--        $('input.autocomplete').autocomplete({-->
+<!--            data: {-->
+<!--                "Apple": null,-->
+<!--                "Microsoft": null,-->
+<!--                "Google": 'https://placehold.it/250x250'-->
+<!--            },-->
+<!--        });-->
+<!--    });-->
+<!--// </script>-->
+</body>
+</html>
